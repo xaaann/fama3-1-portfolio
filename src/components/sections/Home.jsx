@@ -10,7 +10,6 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 px-6">
           
-          {/* 🖼 Left side - Image */}
           <div className="flex-shrink-0">
             <img
               src={profilePic}
@@ -19,7 +18,6 @@ export const Home = () => {
             />
           </div>
 
-          {/* 📝 Right side - Text */}
           <div className="text-center md:text-left">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
               Hi, I'm Roxanne Fama
